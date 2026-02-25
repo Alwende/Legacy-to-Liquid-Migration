@@ -25,3 +25,6 @@ graph TD
 - **Compute:** EC2 t3.medium (Pilot) running Amazon Linux 2023.
 - **Persistence:** RDS PostgreSQL 17.6 (Post-Migration Target).
 - **Security:** Security Group ingress restricted to internal VPC traffic (Port 5432).
+
+## 3. Visual Topology
+![Legacy-to-Liquid-Topology](./Legacy-to-Liquid-Topology.svg)
