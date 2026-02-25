@@ -53,5 +53,5 @@ The target environment follows the **AWS Well-Architected Framework**, decouplin
 The **Legacy-to-Liquid** initiative proves that migration is a strategic operation, not just a data transfer. By combining **PMP leadership** with **AWS Engineering**, I have built a blueprint for scalable, secure, and cost-effective digital transformation.
 
 ---
-**Lead Authority:** Dan Alwende, PMP | computer science graduate
+**Lead Authority:** Dan Alwende, PMP | Enterprise Solutions Architect
 **Date:** February 2026
