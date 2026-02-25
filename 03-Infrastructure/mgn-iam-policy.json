@@ -1,0 +1,16 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Effect": "Allow",
+            "Action": [
+                "mgn:GetReplicationConfiguration",
+                "mgn:UpdateReplicationConfiguration",
+                "mgn:NotifyVcenterClientStarted",
+                "mgn:SendClientMetricsForMgn",
+                "mgn:SendClientLogsForMgn"
+            ],
+            "Resource": "*"
+        }
+    ]
+}
