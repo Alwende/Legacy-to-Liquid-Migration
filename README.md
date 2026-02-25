@@ -1,14 +1,14 @@
 # Legacy-to-Liquid: Wakwetu Enterprise Hybrid Migration
-**Architecting 99.999% Availability for High-Velocity Retail Operations**
+**Architecting High-Availability Infrastructure for Scalable Retail Operations**
 
 ![Project Status](https://img.shields.io/badge/Status-Complete-green)
 ![AWS](https://img.shields.io/badge/Provider-AWS-orange)
 ![Governance](https://img.shields.io/badge/Framework-PMP_|_Well--Architected-blue)
 
 ## 🎯 Executive Summary
-This project demonstrates the end-to-end migration of a legacy retail ERP system (**Wakwetu General Stores Ltd**) from on-premises technical debt to a hardened, "Liquid" AWS Cloud architecture. 
+This project showcases the end-to-end migration of a legacy retail ERP system (**Wakwetu General Stores Ltd**) from aging on-premises infrastructure to a hardened, "Liquid" AWS Cloud architecture. 
 
-As the Lead Architect and Head of PMO, I engineered a multi-tier landing zone that prioritizes **data isolation**, **fiscal governance**, and **high availability**, ensuring the business transition was seamless and secure.
+As the Lead Enterprise Solutions Architect (ESA), I engineered a multi-tier landing zone that prioritizes **data isolation**, **fiscal governance**, and **high availability**, ensuring the business transition was both seamless and secure.
 
 ---
 
@@ -22,36 +22,31 @@ The target environment follows the **AWS Well-Architected Framework**, decouplin
 
 ---
 
-## 🚀 Key Technical Breakthroughs (Real Talk)
-### **1. The MGN Console Recovery**
-* **The Challenge:** AWS Application Migration Service (MGN) UI failed to recognize the new Wakwetu subnets due to legacy metadata from 11 previous migration jobs.
-* **The Pivot:** I bypassed the UI limitations by executing **AWS CLI (API-level) force-updates** and modifying the **EC2 Root Launch Templates**. This ensured the migration bridge was anchored to the correct VPC.
+## 🚀 Key Technical Breakthroughs
+### **1. Infrastructure-as-Code & CLI Recovery**
+* **The Challenge:** AWS Application Migration Service (MGN) UI limitations prevented the indexing of newly created subnets due to account-level metadata conflicts.
+* **The Pivot:** Bypassed the console by executing **AWS CLI (API-level) force-updates** and modifying **EC2 Root Launch Templates**. This established a 100% compliant network bridge where the standard UI failed.
 
-### **2. Fiscal Governance & Cost Optimization**
-* **The Challenge:** Identified an AWS-default configuration trap estimated at **$946/month**.
-* **The Pivot:** Applied strict PMO oversight to downscale resources to a **Free-Tier optimized stack ($0/mo)** without compromising the integrity of the migration pilot.
+### **2. Strategic Cost Governance**
+* **The Challenge:** Identified an AWS-default configuration estimated at **$946/month** during initial setup.
+* **The Pivot:** Applied strict fiscal oversight to downscale resources to a **Free-Tier optimized stack ($0/mo)**, maintaining project integrity while preserving operational runway.
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Structure & Evidence
 - `01-Governance/`: Project Charter, PMP artifacts, and technical audit logs.
 - `02-Architecture/`: Logical topology diagrams and network mapping.
 - `03-Infrastructure/`: VPC specifications and IAM security policies.
 - `04-Scripts/`: Automation scripts for migration and data cutover.
 - `05-Artifacts/`: Legacy data dumps and pilot migration logs.
+- `02-Images/`: **Visual Evidence Portfolio** (VPC Resource Maps, MGN CLI confirmation, and RDS Tiering).
 
 ---
 
-## 📈 JD Competency Alignment (Safaricom/Enterprise Ready)
-- **Migration Strategy:** Proven ability to move workloads from Legacy/On-Prem to Hybrid Cloud.
-- **Virtual Networking:** Expert-level mapping of subnets, route tables, and security groups.
-- **Reverse Engineering:** Successfully translated legacy ERP specs into a modernized cloud-native target state.
-
----
-
-## 🏁 Conclusion
-The **Legacy-to-Liquid** initiative proves that migration is a strategic operation, not just a data transfer. By combining **PMP leadership** with **AWS Engineering**, I have built a blueprint for scalable, secure, and cost-effective digital transformation.
+## 🏁 Technical Core Competencies Demonstrated
+- **Hybrid Migration:** Designing block-level replication paths from On-Prem to Cloud.
+- **Virtual Network Engineering:** Advanced mapping of CIDR blocks, route tables, and security groups.
+- **Systems Thinking:** Reverse-engineering legacy application requirements into modernized, secure cloud-native environments.
 
 ---
 **Lead Authority:** Dan Alwende, PMP | Enterprise Solutions Architect
-**Date:** February 2026
