@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <rect width="800" height="400" fill="#ffffff"/>
+  
+  <rect x="50" y="100" width="200" height="200" rx="10" fill="#f4f4f4" stroke="#333" stroke-width="2"/>
+  <text x="75" y="130" font-family="Arial" font-size="14" font-weight="bold">ON-PREMISE (LEGACY)</text>
+  <rect x="75" y="160" width="150" height="60" rx="5" fill="#fff" stroke="#666"/>
+  <text x="85" y="195" font-family="Arial" font-size="12">Legacy ERP Server</text>
+  <text x="85" y="210" font-family="Arial" font-size="10" fill="#666">(VMWare Workload)</text>
+
+  <rect x="350" y="50" width="400" height="300" rx="10" fill="#f0f7ff" stroke="#232f3e" stroke-width="2"/>
+  <text x="370" y="80" font-family="Arial" font-size="14" font-weight="bold" fill="#232f3e">AWS CLOUD (LIQUID ARCHITECTURE)</text>
+
+  <rect x="370" y="100" width="100" height="200" rx="5" fill="#fff" stroke="#ff9900" stroke-dasharray="5,5"/>
+  <text x="375" y="120" font-family="Arial" font-size="10" font-weight="bold">STAGING AREA</text>
+  <rect x="385" y="160" width="70" height="40" rx="5" fill="#ff9900" fill-opacity="0.2" stroke="#ff9900"/>
+  <text x="390" y="185" font-family="Arial" font-size="9">MGN Rep</text>
+
+  <rect x="500" y="100" width="110" height="200" rx="5" fill="#fff" stroke="#0073bb"/>
+  <text x="505" y="120" font-family="Arial" font-size="10" font-weight="bold">APP TIER (PVT)</text>
+  <rect x="520" y="160" width="70" height="40" rx="5" fill="#0073bb" fill-opacity="0.2" stroke="#0073bb"/>
+  <text x="525" y="185" font-family="Arial" font-size="9">ERP Pilot</text>
+
+  <rect x="640" y="100" width="100" height="200" rx="5" fill="#fff" stroke="#3b48cc"/>
+  <text x="645" y="120" font-family="Arial" font-size="10" font-weight="bold">DB TIER (PVT)</text>
+  <rect x="655" y="160" width="70" height="40" rx="5" fill="#3b48cc" fill-opacity="0.2" stroke="#3b48cc"/>
+  <text x="660" y="185" font-family="Arial" font-size="9">RDS Postgre</text>
+
+  <path d="M 250 190 L 385 185" fill="none" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M 455 180 L 520 180" fill="none" stroke="#666" stroke-width="2" stroke-dasharray="4" marker-end="url(#arrowhead)"/>
+  <path d="M 590 180 L 655 180" fill="none" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+
+  <text x="260" y="175" font-family="Arial" font-size="9" fill="#d13212">Block Replication</text>
+  <text x="460" y="170" font-family="Arial" font-size="9" fill="#0073bb">Cutover</text>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666" />
+    </marker>
+  </defs>
+</svg>
